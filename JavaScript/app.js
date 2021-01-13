@@ -30,4 +30,5 @@ btnReset.addEventListener("click", () => {
     xNum.value = "";
     yNum.value = 64;
     zNum.value = "";
+    xNum.focus();
 });
