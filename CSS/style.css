@@ -62,17 +62,24 @@ input:focus {
 button {
     width: 200px;
     height: 50px;
-    background-color: black;
-    color: white;
+    background-color: transparent;
+    color: black;
     text-transform: uppercase;
     font-weight: bolder;
-    border: 2px solid black;
+    border: 3px solid black;
     border-radius: 5px;
+    margin: 0px 20px;
+    transition: 0.2s ease all;
 }
 
 button:hover {
     color: cornflowerblue;
+    border-color: cornflowerblue;
     cursor: pointer;
+}
+
+button:focus {
+    outline: none;
 }
 
 #coords-count {
