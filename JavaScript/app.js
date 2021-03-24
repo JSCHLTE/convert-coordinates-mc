@@ -14,9 +14,9 @@ btnConvert.addEventListener("click", () => {
     yCoord = yNum.value / 1;
     zCoord = zNum.value / 8;
 
-    xRound = Math.round(xCoord);
+    xRound = Math.floor(xCoord);
     yRound = yNum.value;
-    zRound = Math.round(zCoord);
+    zRound = Math.floor(zCoord);
 
     netherCoords = (`${xRound}, ${yRound}, ${zRound}`);
 
