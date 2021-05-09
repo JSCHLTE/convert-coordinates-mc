@@ -66,7 +66,7 @@ button {
     color: black;
     text-transform: uppercase;
     font-weight: bolder;
-    border: 3px solid black;
+    border: 2px solid black;
     border-radius: 5px;
     margin: 0px 20px;
     transition: 0.2s ease all;
